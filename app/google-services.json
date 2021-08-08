@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "658009368608",
+    "project_id": "simkron-8c78d",
+    "storage_bucket": "simkron-8c78d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658009368608:android:bb0dba9cd0cf4c44827445",
+        "android_client_info": {
+          "package_name": "com.harysetyopermadi.simkron"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658009368608-e5hu0kidm28imvj50cghhkgt52s63iau.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.harysetyopermadi.simkron",
+            "certificate_hash": "054a3b0d0b2408434d94f4a1267de79fcd100721"
+          }
+        },
+        {
+          "client_id": "658009368608-6fik1otm8cluu4o5r563sel3pff1am2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMRXryGQ7VCB5fpItyhcnSFh4nIFqvqLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658009368608-6fik1otm8cluu4o5r563sel3pff1am2e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

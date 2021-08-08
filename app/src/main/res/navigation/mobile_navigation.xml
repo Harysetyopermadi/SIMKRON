@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.harysetyopermadi.simkron.ui.home.HomeFragment"
+        android:label="Beranda"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.harysetyopermadi.simkron.ui.dashboard.DashboardFragment"
+        android:label="Monitoring"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.harysetyopermadi.simkron.ui.notifications.NotificationsFragment"
+        android:label="Informasi"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_akun"
+        android:name="com.harysetyopermadi.simkron.ui.akun.AkunFragment"
+        android:label="Akun"
+        tools:layout="@layout/fragment_akun" />
+</navigation>
